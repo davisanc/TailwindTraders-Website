@@ -4,8 +4,8 @@
 # https://aka.ms/yaml
 trigger: none
 pool:
-  #vmImage: 'windows-latest'
-  name: local
+  vmImage: 'windows-latest'
+  #name: local
 steps:
 - task: UseDotNet@2
   displayName: 'Use dotnet'
